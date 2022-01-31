@@ -1,0 +1,26 @@
+ [
+    {
+        "id": 1,
+        "name": "science",
+        "thumb":"https://i.ibb.co/nPd3zqN/sci.png",
+        "description":"science, any system of knowledge that is concerned with the physical world and its phenomena and that entails unbiased observations and systematic experimentation."
+    },
+    {
+        "id": 2,
+        "name": "Maths",
+        "thumb":"https://i.ibb.co/8D4s1WL/52-522521-math-wallpaper-hd-simple-maths-hd.jpg",
+        "description":"Mathematics is the science that deals with the logic of shape, quantity and arrangement."
+    },
+    {
+        "id": 3,
+        "name": "General Knowledge",
+        "thumb":"https://i.ibb.co/d4xm5Fc/Knowledge.png",
+        "description":"General knowledge has been defined in differential psychology as culturally valued knowledge communicated by a range of non-specialist media and encompassing a wide subject range."
+    },
+    {
+        "id":4,
+        "name":"Social",
+        "thumb":"https://i.ibb.co/92B0hR1/Social-Science-Hd-Wallpapers-Bestpicture1-org.jpg",
+        "description":"Social science is, in its broadest sense, the study of society and the manner in which people behave and influence the world around us."
+    }
+]
