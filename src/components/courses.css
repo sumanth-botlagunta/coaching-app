@@ -8,12 +8,14 @@
   margin-bottom: 10px;
   display: flex;
   width: 320px;
+  height: 430px;
   flex-wrap: nowrap;
   flex-direction: column;
   border: 1px solid rgb(21, 155, 21);
   border-radius: 3px;
   padding: 5px;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   transition-duration: 1ms;
   background-color: #dff0d8;
 }
