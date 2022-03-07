@@ -1,8 +1,14 @@
+.covid-banner {
+  width: 100%;
+}
+.covid-banner > img {
+  width: 100%;
+}
 .all-courses {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .course-info {
   margin-bottom: 10px;

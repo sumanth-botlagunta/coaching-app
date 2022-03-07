@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import banner from "./Banner.jpg"
 export default class Coursedisplay extends Component {
   rendercourses = (data) => {
     if (data) {
@@ -26,7 +27,10 @@ export default class Coursedisplay extends Component {
   render() {
     return (
       <>
-        <div className="container">
+        <div className="container-fluid">
+          <div className="covid-banner">
+            <img src={banner} alt="_covidbanner_" />
+          </div>
           <div className="panel panel-success">
             <div className="panel-heading">
               <h4>Buy the Best Quality Products at Medimax</h4>
