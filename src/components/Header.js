@@ -17,7 +17,7 @@ function Header() {
             <span class="icon-bar"></span>
           </button>
           <Link to="/" class="navbar-brand">
-            Vikas Coaching Center
+            Medi-Max
           </Link>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -26,10 +26,10 @@ function Header() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">Dashboard</a>
+              <a href="#">categories</a>
             </li>
             <li>
-              <Link to="/">Browse courses</Link>
+              <Link to="/">Browse Medicines</Link>
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
@@ -41,6 +41,11 @@ function Header() {
             <li>
               <Link to="/login">
                 <span class="glyphicon glyphicon-log-in"></span> Login
+              </Link>
+            </li>
+            <li>
+              <Link to="/login">
+                <span class="glyphicon glyphicon-shopping-cart"></span> Cart
               </Link>
             </li>
           </ul>

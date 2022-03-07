@@ -6,14 +6,17 @@ export default class Coursedisplay extends Component {
         return (
           <div className="course-info" key={item._id}>
             <div className="course-img">
-              <img src={item.thumb} alt="course" />
+              <img src={item.image} alt="course" />
             </div>
             <div className="course-desc">
               <h2>{item.name}</h2>
               <p className="desc-text">{item.description}</p>
             </div>
+            <div className="medi-cost">
+            ₹{item.cost}
+            </div>
             <button className="btn btn-danger" value={item.id}>
-              Register here
+              Buy Now
             </button>
           </div>
         );
@@ -26,7 +29,7 @@ export default class Coursedisplay extends Component {
         <div className="container">
           <div className="panel panel-success">
             <div className="panel-heading">
-              <h4>Register your courses</h4>
+              <h4>Buy the Best Quality Products at Medimax</h4>
             </div>
             <div className="panel-body">
               <div className="all-courses">
